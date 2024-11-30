@@ -61,6 +61,9 @@ body {
 
   &__prices {
     margin-top: 29px;
+    display: flex;
+    gap: 19px;
+    align-items: center;
   }
 
   &__price-discount {
