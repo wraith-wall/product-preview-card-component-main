@@ -36,6 +36,9 @@ body {
     font-weight: 500;
     font-size: 12px;
     letter-spacing: 0.42em;
+    color: #6C7289;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
   }
 
   &__subtitle {
@@ -43,6 +46,8 @@ body {
     font-weight: 700;
     font-size: 32px;
     line-height: 100%;
+    color: #1C232B;
+    font-family: 'Fraunces', sans-serif;
   }
 
   &__descr {
@@ -50,12 +55,20 @@ body {
     font-weight: 500;
     font-size: 14px;
     line-height: 164%;
+    color: #6C7289;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  &__prices {
+    margin-top: 29px;
   }
 
   &__price-discount {
     font-weight: 700;
     font-size: 32px;
     line-height: 100%;
+    color: #3D8168;
+    font-family: 'Fraunces', sans-serif;
   }
 
   &__price-regular {
@@ -63,5 +76,26 @@ body {
     font-size: 13px;
     line-height: 177%;
     text-decoration: line-through;
+    color: #6C7289;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  &__add-to-cart {
+    margin-top: 30px;
+    width: 236px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #3D8168;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #1A4032;
+    }
   }
 }
