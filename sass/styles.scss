@@ -25,9 +25,43 @@ body {
     }
   }
 
-  &__descr {
+  &__feature {
     width: 300px;
     height: 450px;
     background-color: #fff;
+    padding: 32px;
+  }
+
+  &__title {
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 0.42em;
+  }
+
+  &__subtitle {
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+  }
+
+  &__descr {
+    margin-top: 24px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 164%;
+  }
+
+  &__price-discount {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+  }
+
+  &__price-regular {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 177%;
+    text-decoration: line-through;
   }
 }
