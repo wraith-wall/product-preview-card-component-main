@@ -20,9 +20,12 @@ body {
   overflow: hidden;
 
   &__image {
-    img {
-      width: 300px;
-    }
+    width: 300px;
+    height: 450px;
+    background-image: url('../images/image-product-desktop.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 
   &__feature {
@@ -106,6 +109,49 @@ body {
 
     .icon {
       margin-right: 11.61px;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .perfume {
+    width: 343px;
+    height: 611px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+
+    &__image {
+      background-image: url(../images/image-product-mobile.jpg);
+      height: 240px;
+      width: 343px;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    &__feature {
+      height: 371px;
+      padding: 24px;
+      width: 343px;
+    }
+
+    &__subtitle {
+      margin-top: 12px;
+    }
+
+    &__descr {
+      margin-top: 16px;
+    }
+
+    &__prices {
+      margin-top: 24px;
+    }
+
+    &__add-to-cart {
+      margin-top: 20px;
+      width: 295px;
     }
   }
 }
